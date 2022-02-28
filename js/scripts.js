@@ -4,5 +4,13 @@ function customPizza(size, toppings){
   this.price = 0;
 }
 
-let newPizza = new customPizza("medium",["anchovies", "pineapple"]); 
-newPizza
+//price based on size and toppings 
+customPizza.prototype.piePrice= function() {
+  let toppingsPrice = this.toppings.length;
+  let pPrice = 0;
+
+  return this.price = toppingsPrice + pPrice;
+}
+
+let newPizza = new customPizza("Family",["anchovies", "pineapple","olives"]); 
+newPizza.piePrice()
