@@ -1,0 +1,26 @@
+.btn-group-toggle{
+  border: 20ch;
+  padding-top: 30px;
+}
+
+.form-group{
+  width: 180px;
+  align-items: center;
+}
+
+body{
+  background-color:rgb(250, 106, 70);
+  padding-left: 19%;
+}
+
+img {
+  height: 400px;
+}
+
+#Price{
+  font-size: xx-large;
+}
+
+#total{
+  font-size: larger;
+}
