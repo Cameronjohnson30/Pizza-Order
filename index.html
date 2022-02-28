@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Cameron's Pizza Palace</title>
+</head>
+<body>
+  <img src="img/pizza.jpg"
+  <div class="container">
+  <h1>Cameron's Pizza Palace</h1> 
+  <h2>Host your child's birthday parties here!!!!</h2>
+  <form id="form-one">
+    <h1>Pick your pie size</h1>
+    <div class="form-group">      
+      <select multiple class="form-control" id="Size">
+        <label for="Size">Pie Size</label>
+        <option value="Small">Small__8$</option>
+        <option value="Medium">Medium__15$</option>
+        <option value="Large">Large__20$</option>
+        <option value="Family">Family__30$</option>
+      </select>
+    </div>
+    <h2>Pick your 2 topping pizza $1 dollar for extra toppings</h2>
+    <h3>Cheese</h3>  
+      <input class="form-check-input" type="checkbox"  name="toppings" value="cheese" checked>
+        <label for="cheese">cheese</label><br>
+      <input class="form-check-input" type="checkbox"  name="toppings" value="goat cheese">
+        <label for="goatCheese"> goat cheese</label><br>
+        <div class="meat">
+        <h3>Meats</h3>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="pepperoni" checked>
+          <label for="pepperoni">pepperoni</label><br>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="sausage">
+          <label for="sausage">sausage</label><br>
+        </div>        
+        <h4>Veggies</h4>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="olives">
+          <label for="olives">olives</label><br>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="pineapple">
+          <label for="pineapple">pineapple</label><br>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="green peppers">
+          <label for="greenPeppers">green peppers</label><br>
+        <input class="form-check-input" type="checkbox"  name="toppings" value="mushrooms">
+          <label for="mushrooms">mushrooms</label><br>    
+        <button type="submit" class="btn btn-primary">Enter</button>
+        <h5><img src="img/slice.jpg" alt="Pizza slice"></h5>
+  </form>
+  <div id="Price">total</div>
+</div>
+</body>
+</html>
